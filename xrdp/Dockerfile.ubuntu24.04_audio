@@ -1,4 +1,4 @@
-FROM yama07/docker-ubuntu-lxde:24.04-xrdp_ja
+FROM yama07/docker-ubuntu-lxde:24.04-xrdp
 
 RUN \
     # Disable unavailable pipewire features

@@ -1,7 +1,7 @@
 version: "3"
 services:
   desktop:
-    image: docker-ubuntu-lxde:22.04-dev_ja
+    image: docker-ubuntu-lxde:22.04-dev
     build: .
     user: 1000:1000 ## $(id -u):$(id -g)
     ports:

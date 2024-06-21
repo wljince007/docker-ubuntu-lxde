@@ -1,4 +1,4 @@
-FROM yama07/docker-ubuntu-lxde:22.04-pulseaudio_ja
+FROM yama07/docker-ubuntu-lxde:22.04-pulseaudio
 
 ## Customize login screen
 RUN apt-get update \
@@ -57,7 +57,7 @@ RUN \
       echo 'Defaults env_keep+="https_proxy"'; \
     } > /etc/sudoers.d/ENV_KEEP \
     ### Default engine
-    && sed -i "1i dconf write /desktop/ibus/general/preload-engines \"['mozc-jp']\"" /etc/skel/.xsession
+    # && sed -i "1i dconf write /desktop/ibus/general/preload-engines \"['mozc-jp']\"" /etc/skel/.xsession
 
 ## Dev tools
 RUN apt-get update \
