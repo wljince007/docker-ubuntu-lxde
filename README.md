@@ -3,7 +3,6 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/yama07/docker-ubuntu-lxde?style=for-the-badge)](https://hub.docker.com/r/yama07/docker-ubuntu-lxde)
 [![GitHub](https://img.shields.io/github/license/yama07/docker-ubuntu-lxde?style=for-the-badge)](https://github.com/yama07/docker-ubuntu-lxde)
 
-[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/yama07/docker-ubuntu-lxde/.github%2Fworkflows%2Fubuntu20.04_all.yml?logo=githubactions&label=Build%20Ubuntu20.04%20based%20Docker%20images&style=for-the-badge)](https://github.com/yama07/docker-ubuntu-lxde/actions/workflows/ubuntu20.04_all.yml)
 [![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/yama07/docker-ubuntu-lxde/.github%2Fworkflows%2Fubuntu22.04_all.yml?logo=githubactions&label=Build%20Ubuntu22.04%20based%20Docker%20images&style=for-the-badge)](https://github.com/yama07/docker-ubuntu-lxde/actions/workflows/ubuntu22.04_all.yml)
 [![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/yama07/docker-ubuntu-lxde/.github%2Fworkflows%2Fubuntu24.04_all.yml?logo=githubactions&label=Build%20Ubuntu24.04%20based%20Docker%20images&style=for-the-badge)](https://github.com/yama07/docker-ubuntu-lxde/actions/workflows/ubuntu24.04_all.yml)
 
