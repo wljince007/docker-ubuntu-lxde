@@ -1,5 +1,5 @@
 ####################################
-FROM ubuntu_xrdp_en:24.04
+FROM ubuntu:24.04_xrdp_en
 # For slim:
 #   --build-arg ADDITIONAL_APT_GET_OPTS=--no-install-recommends
 
