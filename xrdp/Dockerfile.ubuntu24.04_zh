@@ -13,6 +13,7 @@ RUN echo 'path-include=/usr/share/locale/zh_CN/LC_MESSAGES/*.mo' > /etc/dpkg/dpk
       ibus-gtk4 \
       im-config \
       ibus-table-wubi \
+      ibus-pinyin \
       language-pack-zh-hans \
       language-pack-zh-hans-base
       
