@@ -1,0 +1,23 @@
+####################################
+FROM ubuntu:24.04
+ARG ADDITIONAL_APT_GET_OPTS=""
+RUN apt-get update \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y curl make gcc \
+    && curl -s -L https://github.com/ncopa/su-exec/archive/v0.2.tar.gz | tar zx -C /opt/ \
+    && mv /opt/su-exec* /opt/su-exec \
+    && cd /opt/su-exec \
+    && make \
+    && cp /opt/su-exec/su-exec /usr/sbin/su-exec \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y $ADDITIONAL_APT_GET_OPTS \
+      dbus-x11 \
+      lxqt \
+      papirus-icon-theme \
+      sudo \
+      supervisor \
+      tzdata \
+      xorg \
+      xorgxrdp \
+      xrdp 
+    #   \
+    # && apt-get clean \
+    # && rm -rf /var/lib/apt/lists/*
